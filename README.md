@@ -60,5 +60,3 @@ A fully functional, feature-rich Task Management System built with **TypeScript*
 - **Jest** for unit testing
 
 ---
-
-## 📂 Project Structure
