@@ -4,19 +4,22 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "test": "jest --coverage",
-  "lint": "eslint . --ext .ts,.js",
-  "format": "prettier --write ."
-},
-
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "jest --coverage",
+    "lint": "eslint . --ext .ts,.js",
+    "format": "prettier --write ."
+  },
   "devDependencies": {
     "@types/jest": "^30.0.0",
+    "@vitejs/plugin-basic-ssl": "^2.1.0",
     "jest": "^30.2.0",
     "ts-jest": "^29.4.6",
     "typescript": "~5.9.3",
     "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0"
   }
 }
